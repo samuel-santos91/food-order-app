@@ -1,0 +1,77 @@
+@import "../styles/colours";
+@import "../styles/display";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  @include displayFlex(space-between);
+  position: fixed;
+  z-index: 1;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+  h1 {
+    font-size: calc(1vw + 0.6rem);
+    margin: 0;
+    color: $logoRed;
+  }
+}
+
+.restaurant-logo {
+  @include displayFlex(none);
+  margin: 3rem;
+  width: 50rem;
+}
+
+.restaurant-logo {
+  a {
+    text-decoration: none;
+  }
+}
+
+.icon {
+  margin-right: calc(1vw + 1rem);
+  width: 2.3rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn {
+  @include displayFlex(space-around);
+  margin-right: 8rem;
+  @media (max-width: 769px) {
+    margin-right: 1rem;
+  }
+  @media (max-width: 574px) {
+    p {
+      display: none;
+    }
+    width: 6rem;
+    height: 3rem;
+  }
+  width: 12rem;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(56, 55, 55);
+  }
+}
+
+.cart-icon {
+  width: 1rem;
+}
+
+.selected-items {
+  @include displayFlex(center);
+  background-color: $logoRed;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 40%;
+  color: white;
+}

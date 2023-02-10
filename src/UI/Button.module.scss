@@ -1,0 +1,26 @@
+@import "../styles/colours";
+@import "../styles/display";
+
+.btn {
+  @include displayFlex(none);
+  margin-right: 1rem;
+  border: solid black;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  background-color: rgb(227, 224, 224);
+  p {
+    @include displayFlex(center);
+    margin: 0;
+    font-size: 0.7rem;
+    background-color: $logoRed;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 60%;
+    color: rgb(227, 224, 224);
+  }
+  &:hover {
+    background-color: rgb(153, 150, 150);
+    cursor: pointer;
+  }
+}

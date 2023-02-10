@@ -1,0 +1,64 @@
+@import "../styles/colours";
+@import "../styles/display";
+
+.selected-food {
+  @include displayFlex(space-between);
+}
+
+.food {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.price-and-quantity {
+  @include displayFlex(flex-start);
+}
+
+.price-and-quantity {
+  p {
+    color: $cartItemRed;
+  }
+}
+
+.price-and-quantity {
+  div {
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    border: solid;
+    border-radius: 5px;
+    padding: 0.2rem;
+  }
+}
+
+.add-food {
+  div {
+    display: flex;
+    @media (max-width: 492px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.sum {
+  margin-left: 1rem;
+}
+
+.sum,
+.sub {
+  @include displayFlex(center);
+  border: solid $cartItemRed;
+  border-radius: 5px;
+  color: $cartItemRed;
+  font-size: 1.3rem;
+  width: calc(1vw + 1rem);
+  padding: 0.2rem;
+  &:hover {
+    cursor: pointer;
+    background-color: $logoRedHover;
+    color: white;
+  }
+  @media (max-width: 492px) {
+    margin: 0.5rem auto;
+    height: 1rem;
+  }
+}

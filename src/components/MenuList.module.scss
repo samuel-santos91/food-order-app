@@ -1,0 +1,19 @@
+@import "../styles/display";
+
+.menu-grid {
+  @include displayFlex(space-evenly);
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 4rem 0;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  background-image: linear-gradient(to bottom, black, rgb(54, 54, 54));
+  @media (max-width: 1215px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 769px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+} 
