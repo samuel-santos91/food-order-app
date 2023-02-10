@@ -6,7 +6,7 @@
 ### Choose your meals from the menu and add to the cart <br>
 <img width="500" alt="Screen Shot 2023-02-10 at 17 17 44" src="https://user-images.githubusercontent.com/107240729/218027804-0f0463b2-85bc-4b06-bf76-7a904ca09723.png"><br><br>
 
-### Customise your order by adding or removing from the order <br>
+### Click on the cart icon and customise your order by adding or removing from it <br>
 <img width="500" alt="Screen Shot 2023-02-10 at 17 18 26" src="https://user-images.githubusercontent.com/107240729/218027882-3ce9c0bb-e40f-441d-958f-57f1f2194b79.png"><br><br>
 
 ## Prerequisites
