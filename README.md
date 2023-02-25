@@ -1,5 +1,5 @@
 # food-order-app
-## Application that simulates food ordering
+## Application that simulates food ordering (React.js)
 
 <img width="500" alt="Screen Shot 2023-02-10 at 17 17 06" src="https://user-images.githubusercontent.com/107240729/218027596-067bcd49-48df-463c-a4eb-70cf8a9b6ea4.png"><br><br>
 
